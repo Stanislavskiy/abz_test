@@ -1,0 +1,12 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+/* minimum screen width is 970px
+maximum screen width is 1440px */
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 0,
+  md: 0,
+  lg: 970px,
+  xl: 1440px
+)
