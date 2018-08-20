@@ -1,0 +1,27 @@
+@import 'variables';
+
+.service-directory {
+  color: $black;
+
+  &__title {
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+    text-transform: capitalize;
+  }
+  
+  &__button {
+    font-size: 0.875rem;
+    color: $white;
+    background: $green;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    width: 9.0625rem;
+    height: 1.875rem;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

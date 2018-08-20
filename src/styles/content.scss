@@ -1,6 +1,20 @@
 .content {
   display: block;
-  max-width: 60.75rem;
+  max-width: 60.625rem;
   width: 100%;
   margin: 0 auto;
+
+  &__side-column {
+    display: block;
+    float: left;
+    width: 15.125rem;
+    padding: 0 15px 0 15px;
+  }
+
+  &__content-column {
+    display: block;
+    float: left;
+    padding: 0;
+    width: calc(100% - 30.250rem);
+  }
 }

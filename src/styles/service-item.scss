@@ -1,0 +1,33 @@
+@import 'variables.scss'; 
+
+.service-item {
+  width: 8.75rem;
+  
+  &:hover {
+    color: #71973c;
+
+    &>.service-item__card {
+      background: $lightblue;
+    }
+  }
+
+  &__card {
+    width: 100%;
+    border: 1px solid $gray;
+    cursor: pointer;
+  }
+
+  &__image{
+    width: 100%;
+  }
+
+  &__title {
+    cursor: pointer;
+    text-align: center;
+    width: 5.0625rem;
+    margin: 1.125rem auto;
+    font-size: 0.850625rem;
+    line-height: 0.850625rem;
+  }
+
+}
