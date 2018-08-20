@@ -1,4 +1,4 @@
-import React, {PureComponent} from 'react';
+import React, {Component} from 'react';
 import '../../../styles/app-header.scss';
 import '../../../styles/content.scss';
 import logoImage from '../../../assets/app/app-header/logo.png'
@@ -7,7 +7,7 @@ import notifyIcon from '../../../assets/app/app-header/notifications.png'
 import chatIcon from '../../../assets/app/app-header/chat.png'
 import userImage from '../../../assets/app/app-header/user.png'
 
-class AppHeader extends PureComponent {
+class AppHeader extends Component {
     render () {
         return (
           <header className="app-header">
